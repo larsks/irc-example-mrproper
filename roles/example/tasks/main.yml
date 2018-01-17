@@ -1,0 +1,7 @@
+---
+# tasks file for ec2
+- include_tasks: ec2-lc.yml
+  when: asg is defined
+
+- include_tasks: ec2-asg.yml
+  when: asg is defined

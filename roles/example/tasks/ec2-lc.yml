@@ -1,0 +1,3 @@
+---
+- debug:
+    msg: "this is ec2-lc"
